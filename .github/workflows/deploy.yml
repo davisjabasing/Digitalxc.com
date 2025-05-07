@@ -26,4 +26,4 @@ jobs:
         sudo mv kubectl /usr/local/bin/
 
     - name: Apply Kubernetes Manifests
-      run: kubectl apply -f nginx-deployment.yaml
+      run: kubectl apply -f manifests/nginx-deployment.yaml
